@@ -57,6 +57,21 @@
             </objects>
             <point key="canvasLocation" x="927" y="10"/>
         </scene>
+        <!--Third View Controller-->
+        <scene sceneID="KTU-91-vXw">
+            <objects>
+                <viewController id="qSg-Ta-HG2" customClass="ThirdViewController" customModule="Team10_SCM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HRA-Hy-skf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="YnJ-hi-SNd"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SXy-bo-3pO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1610" y="19"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
@@ -64,6 +79,9 @@
         </systemColor>
         <systemColor name="systemBrownColor">
             <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
